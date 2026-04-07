@@ -3,10 +3,10 @@ import { CATEGORIES } from '../data/products'
 import ProductGrid from '../components/ProductGrid'
 
 const CATEGORY_BANNERS = {
-  Dress:  { img: '/images/Cut out Dress/467258552_559527776773835_6982481881163469313_n.jpg',  label: 'Dresses' },
-  Jacket: { img: '/images/Gile/468941819_572800962113183_4946780446749558791_n.jpg',            label: 'Jackets' },
-  Set:    { img: '/images/Office Style Black/467306706_559527650107181_1630434491942107275_n.jpg', label: 'Sets' },
-  Top:    { img: '/images/Vest Style/469323379_572797222113557_680741490562790854_n.jpg',       label: 'Tops' },
+  Dress:  { img: '/detumima/public/images/Cut out Dress/467258552_559527776773835_6982481881163469313_n.jpg',  label: 'Dresses' },
+  Jacket: { img: '/detumima/public/images/Gile/468941819_572800962113183_4946780446749558791_n.jpg',            label: 'Jackets' },
+  Set:    { img: '/detumima/public/images/Office Style Black/467306706_559527650107181_1630434491942107275_n.jpg', label: 'Sets' },
+  Top:    { img: '/detumima/public/images/Vest Style/469323379_572797222113557_680741490562790854_n.jpg',       label: 'Tops' },
 }
 
 export default function ShopPage() {
