@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply font-sans bg-brand-white text-brand-black antialiased;
+  }
+}
+
+/* ── Marquee (right→left, standard) ── */
+@keyframes marquee {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+/* ── Marquee left (for carousels) ── */
+@keyframes marquee-left {
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── Floating button animations ── */
+@keyframes float-bob {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-6px); }
+}
+.float-bob { animation: float-bob 2.6s ease-in-out infinite; }
+
+@keyframes pulse-ring {
+  0%   { transform: scale(1);    opacity: 0.55; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+.pulse-ring { position: relative; }
+.pulse-ring::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 2px solid #0a0a0a;
+  animation: pulse-ring 1.8s ease-out infinite;
+  pointer-events: none;
+}
+
+@layer utilities {
+  .btn-primary {
+    @apply inline-block bg-brand-black text-brand-white text-xs tracking-widest2 uppercase px-8 py-3 hover:bg-brand-gray transition-colors duration-300;
+  }
+  .btn-outline {
+    @apply inline-block border border-brand-black text-brand-black text-xs tracking-widest2 uppercase px-8 py-3 hover:bg-brand-black hover:text-brand-white transition-colors duration-300;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+}
