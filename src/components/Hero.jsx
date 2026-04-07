@@ -2,11 +2,11 @@ import { useState, useEffect, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 
 const SLIDES = [
-  { src: '/detumima/public/banner/banner.jpg',  label: 'New Collection' },
-  { src: '/detumima/public/banner/banner2.jpg', label: 'The Edit' },
-  { src: '/detumima/public/banner/banner3.jpg', label: 'Summer Arrivals' },
-  { src: '/detumima/public/banner/banner4.jpg', label: 'White Color' },
-  { src: '/detumima/public/banner/banner5.jpg', label: 'Black is the Best Choice' },
+  { src: '/detumima/banner/banner.jpg',  label: 'New Collection' },
+  { src: '/detumima/banner/banner2.jpg', label: 'The Edit' },
+  { src: '/detumima/banner/banner3.jpg', label: 'Summer Arrivals' },
+  { src: '/detumima/banner/banner4.jpg', label: 'White Color' },
+  { src: '/detumima/banner/banner5.jpg', label: 'Black is the Best Choice' },
 ]
 
 export default function Hero() {

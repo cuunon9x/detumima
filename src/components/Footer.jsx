@@ -24,7 +24,7 @@ export default function Footer() {
       {/* Links */}
       <div className="px-6 md:px-12 py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
         <div>
-          <img src="/detumima/public/logo.png" alt="Detumima" className="h-7 object-contain brightness-0 invert mb-4" />
+          <img src="/detumima/logo.png" alt="Detumima" className="h-7 object-contain brightness-0 invert mb-4" />
           <p className="text-xs text-brand-white/40 leading-relaxed max-w-[160px]">
             Vietnamese fashion curated for bold, modern women.
           </p>

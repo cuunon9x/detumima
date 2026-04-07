@@ -46,7 +46,7 @@ export default function Navbar({ onCartOpen }) {
 
         {/* Centre: logo */}
         <Link to="/" className="absolute left-1/2 -translate-x-1/2">
-          <img src="/detumima/public/logo.png" alt="Detumima" className="h-9 object-contain" />
+          <img src="/detumima/logo.png" alt="Detumima" className="h-9 object-contain" />
         </Link>
 
         {/* Right: icons */}

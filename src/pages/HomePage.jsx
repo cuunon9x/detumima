@@ -25,7 +25,7 @@ export default function HomePage() {
       <section className="grid md:grid-cols-2 min-h-[520px]">
         <div className="relative overflow-hidden bg-brand-light aspect-[4/3] md:aspect-auto">
           <img
-            src="/detumima/public/images/Vest Style/469323379_572797222113557_680741490562790854_n.jpg"
+            src="/detumima/images/Vest Style/469323379_572797222113557_680741490562790854_n.jpg"
             alt="Edit"
             className="w-full h-full object-cover object-top"
           />
